@@ -1,0 +1,42 @@
+labels,label_id,nucleus_hex,R,G,B
+background,0,FFFFFF,0,0,0
+anterodorsal,1,CA6702,202,103,2
+anteromedial,2,DE7002,222,112,2
+anteroventral,3,F27A02,242,122,2
+lateral-dorsal,4,FD850D,253,133,13
+lateral-posterior,5,CC8500,204,133,0
+pulvinar (medial),6,FFA90A,255,169,10
+pulvinar (lateral),7,FFB01F,255,176,31
+pulvinar (inferior),8,FFB833,255,184,51
+pulvinar (anterior),9,F59F00,245,159,0
+lateral-habenular,10,BB3E03,187,62,3
+medial-habenular,11,DD4803,221,72,3
+paraventricular,12,F14F04,241,79,4
+centromedian,13,E9D8A6,233,216,166
+parafascicular,14,EFE2BE,239,226,190
+subparafascicular,15,F3E9CE,243,233,206
+fasciculosus,16,F7F0DE,247,240,222
+paracentral,17,E7CE9C,231,206,156
+central medial nucleus,18,EBD6AD,235,214,173
+central lateral nucleus,19,E3C68C,227,198,140
+mediodorsal,20,9B2226,155,34,38
+mediodorsal (magnocellular),21,B8282D,184,40,45
+medioventral,22,C92C31,201,44,49
+paratenial,23,D3363B,211,54,59
+intermediodorsal,24,941B10,148,27,16
+midline,25,AE2012,174,32,18
+lateral-geniculate,26,0A9396,10,147,150
+medial-geniculate,27,0BAAAD,11,170,173
+limitans,28,0CBDC0,12,189,192
+reticular,29,002C3D,0,44,61
+zona-incerta,30,005F73,0,95,115
+ventral-anterior,31,94D2BD,148,210,189
+ventral-anterior (magnocellular),32,8CCFB9,140,207,185
+ventral-lateral,33,7EC9B0,126,201,176
+ventral-lateral (rostral),34,A9DBCA,169,219,202
+ventral-posterior-lateral,35,B7E1D3,183,225,211
+ventral-posterior-medial,36,C5E7DC,197,231,220
+ventral-posterior-inferior,37,D4EDE5,212,237,229
+ventral-medial,38,6FC3A8,111,195,168
+ventral-lateral (dorsal),39,61BDA0,97,189,160
+basal-ventral-medial,40,52B797,82,183,151
