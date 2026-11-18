@@ -1,0 +1,84 @@
+# ---------------------------------------------------------------------------
+# Data: never commit. Download from original sources (see README.md).
+# ---------------------------------------------------------------------------
+data/*
+!data/connectivity/
+!data/dhcp_surfaces/
+outputs/
+figures/
+matlab_analysis/figures
+matlab_analysis/Data4GenMdl
+matlab_analysis/ExampleIndvTract
+matlab_analysis/SubTCedits_mats
+matlab_analysis/ThalConnCort_Figures
+matlab_analysis/Thal_Streamline_Figures
+matlab_analysis/rand100_conns
+matlab_analysis/data
+
+# original analysis code, manuscript and figures (local reference only)
+orig/
+paper/
+
+# data and image formats, wherever they appear
+*.csv
+*.tsv
+*.txt
+*.xlsx
+*.xls
+*.mtx
+*.mtx.gz
+*.gz
+*.h5
+*.h5ad
+*.hdf5
+*.nii
+*.gii
+*.mgz
+*.mif
+*.tck
+*.npy
+*.npz
+*.pkl
+*.pickle
+*.joblib
+*.mat
+*.dof
+*.png
+*.jpg
+*.jpeg
+*.tif
+*.tiff
+*.pdf
+*.docx
+
+# exception: derived group-level network inputs (matlab_analysis/GetData4GenMdl.m)
+!data/connectivity/*.csv
+!data/connectivity/*.txt
+!data/dhcp_surfaces/*.gii
+
+# exception: MATLAB thalamic lookup table (with colours)
+!matlab_analysis/data/
+!matlab_analysis/data/thalamic_all-regions_lut.csv
+
+# ---------------------------------------------------------------------------
+# Hidden files and secrets
+# ---------------------------------------------------------------------------
+.*
+!.gitignore
+!.github/
+*.env
+*.pem
+*.key
+*secret*
+*credential*
+*token*
+
+# ---------------------------------------------------------------------------
+# Python / Jupyter
+# ---------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+*.ipynb
